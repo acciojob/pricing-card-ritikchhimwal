@@ -1,1 +1,70 @@
-/*  your css code here. If applicable */
+/* Global styles */
+body {
+    font-family: Gilroy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Card container */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Image styling */
+.card-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Card title styling */
+.card-title {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Price styling */
+.card-price {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Description styling */
+.card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.card-button {
+    background-color: #f08080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.card-button:hover {
+    background-color: #ff7f7f;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
